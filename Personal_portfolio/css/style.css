@@ -1,0 +1,221 @@
+
+/* chaning default values from bootstrap/css */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #fafafa !important;
+    font-family: 'Montserrat', serif !important;
+}
+ul {
+    list-style: square inside url("sqpurple.gif");
+  }
+h1 {
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+h2 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+h5 {
+    font-weight: bold !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* bootstrap has rounded buttons this sets all buttons to have no rounded corners */
+.btn {
+    border-radius: 0% !important;
+}
+
+/* this is for index.html page */
+
+/* setting background image */
+.backdrop-image {
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    height: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile-row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#latest-projects{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+#examples-of-projs {
+    padding-bottom: 5rem;
+}
+
+.intro-section{
+    margin-top: 300px;
+}
+
+#main-name{
+   color: #ffffff;
+}
+
+@media (min-width: 1400px) {
+    #main-name {
+        color: #000000;
+    }
+}
+
+#first-card-profile, #second-card-profile, #third-card-profile {
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    border-radius: 0%;
+    border-color: #a5a5a5;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#first-card-profile {
+    background-image: url("../images/app_example.png");
+}
+#second-card-profile {
+    background-image: url("../images/chat_forum.png");
+}
+#third-card-profile {
+    background-image: url("../images/adobexd_example.png");
+}
+
+.lastest-work-card {
+    opacity: 0%;
+    height: 100%;
+    color: white;
+}
+
+.lastest-work-card:hover {
+    opacity: 100%;
+    height: 100%;
+    background-color: rgba(34, 35, 35, 0.80);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1200px) {
+    #third-card-profile {
+        display: none;
+    }
+}
+
+@media (max-width: 724px) {
+    #third-card-profile {
+        display: block;
+    }
+}
+
+/* footer section on every page */
+
+#footer {
+    background-color:#222323;
+    height: 150px;
+}
+
+#contact-footer {
+    background-color:#222323;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-text {
+    color: #888888;
+}
+
+.footer-btns {
+    background: none;
+    border: none;
+}
+.footer-btns-images {
+    height: 30px;
+    filter: invert(100%);
+}
+
+.footer-btns-images:hover {
+    filter: invert(50%);
+}
+
+@media (max-height: 860px) and (max-width: 765px ){
+    #contact-footer {
+        margin-top: 4rem;
+        position: relative;
+    }
+}
+
+@media (max-height: 735px) and (min-width: 765px ){
+    #contact-footer {
+        margin-top: 4rem;
+        position: relative;
+    }
+}
+
+/* contact me page */
+
+#contact-field {
+    margin-top: 200px;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    #contact-field {
+        margin-top: 100px;
+    }
+}
+
+.form-control {
+    border-radius: 0% !important;
+}
+
+/* example projects page */
+
+.example-projects {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.project-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90%;
+    width: 40rem;
+}
+
+
+/* Resume section */
+
+.resume-title {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.date-for-resume {
+    color: #acacac;
+}
+
+.work-place {
+    font-style: italic !important;
+    font-weight: 400 !important;
+}
+
+.design-tools {
+    font-weight: bold;
+}
+
+.resume-button {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}

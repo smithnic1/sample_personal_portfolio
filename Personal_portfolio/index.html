@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Nick's portfolio</title>
+</head>
+
+<body>
+
+    <!-- main footer -->
+    <div class="container-fluid backdrop-image px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Current Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- name and info -->
+        <div class="ml-4">
+            <div class="intro-section d-flex justify-content-center">
+                <div>
+                    <h1 id="main-name">
+                        Nicholas Smith
+                    </h1>
+                    <h5 class="text-white">Frontend developer</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- image of me -->
+    <div id="profile-row" class="row mx-4 d-flex align-items-center justify-content-center">
+        <div class="col-sm-12 col-lg-5 col-md-6 col-xl-4">
+            <img class="img-fluid profile-image" src="./images/profile_pic.jpg" alt="profile image">
+        </div>
+        <div class="col">
+            <!-- about me section -->
+            <div class="row">
+                <h2 class="my-3">Developer, Plant Collector, & Avid Climber</h2>
+                <p>Hey! I'm Nicholas, an Information and Computer Technologist student at Camosun college. I have 2
+                    years
+                    experiece working as a frontend developer and a huge passion for all things web-development related!
+                </p>
+                <p>
+                    My most unique fact about myself may be my plant hobby & business. I began collecting rare
+                    tropical
+                    plants in 2019. I have since been able to turn this passion into a successful side business
+                    pasive
+                    source of income.
+
+                </p>
+                <p>
+                    When I am not working as a developer you will most likely find me clinging to dear life
+                    ascending the side of a mountain.
+                </p>
+                <p>
+                    I always love to chat. Please reach out if you want to talk about any of my current projects,
+                    hobbies or anything tech related!
+                </p>
+            </div>
+
+            <!-- button to contact me page -->
+            <div class="row d-flex ml-auto">
+                <form action="contact.html">
+                    <button class="btn btn-outline-dark" type="submit">
+                        Get in touch
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- sample of latest projects -->
+    <div id="latest-projects" class="d-flex justify-content-center bg-white">
+        <h2>latest projects</h2>
+    </div>
+
+    <!-- projects all link to projects page when clicked  -->
+    <div id="examples-of-projs" class=" row d-flex justify-content-center bg-white">
+
+        <!-- research app sample -->
+        <div id="first-card-profile" class="card col-12 col-sm-6 mb-3 px-0 mx-2">
+            <a href="./projects.html">
+                <div class="lastest-work-card container-fluid py-2">
+                    <img class="img-fluid" src="./images/flutter_logo.png" style="height:30px ;" alt="">
+                    <div class="mt-4 pt-4">
+                        <h3>
+                            Research App
+                        </h3>
+                        <p>
+                            An interactive app to run health-research studies
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- chat forum sample -->
+        <div id="second-card-profile" class="card col-12 col-sm-6 mb-3 px-0 mx-2">
+            <a href="./projects.html">
+                <div class="lastest-work-card container-fluid py-2">
+                    <img class="img-fluid" src="./images/react_logo.png" style="height:30px ;" alt="">
+                    <div class="mt-4 pt-4">
+                        <h3>
+                            Chat Forum
+                        </h3>
+                        <p>
+                            A live chat forum that fetchs and posts messages to the api
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- adobeXd samples -->
+        <div id="third-card-profile" class="card col-12 col-sm-6 mb-3 px-0 mx-2">
+            <a href="./projects.html">
+                <div class="lastest-work-card container-fluid py-2">
+                    <img class="img-fluid" src="./images/adobe_xd_logo.svg" style="height:30px ;" alt="">
+                    <div class="mt-4 pt-4">
+                        <h3>
+                            AdobeXd design
+                        </h3>
+                        <p>
+                            Various UI/UX designs of my next big project!
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class=" d-flex justify-content-center">
+            <h3 class="text-light mt-4 pt-2">
+                Want to Connect?
+            </h3>
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+            <a href='https://github.com/smithnic1/' target="_blank" class="footer-btns">
+                <img src="./images/github.svg" alt="git hub logo" class="footer-btns-images mx-2">
+            </a>
+            <a href='https://www.facebook.com/nick.smith.1865904' target="_blank" class="footer-btns">
+                <img src="./images/facebook.svg" alt="facebook logo" class="footer-btns-images mx-2">
+            </a>
+            <a href='https://www.linkedin.com/in/nick-smith-47123b191/' target="_blank" class="footer-btns">
+                <img src="./images/linkedin.svg" alt="linkedin logo" class="footer-btns-images mx-2">
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

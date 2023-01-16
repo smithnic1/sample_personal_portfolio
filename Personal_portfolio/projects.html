@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Current Projects</title>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Current Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- chat forum example -->
+        <div class="example-projects px-4 row align-items-center">
+            <div class="col-md-4 col-lg-5 col-xl-6 order-2 order-md-1 mt-5">
+                <h2>Live Chat Forum</h2>
+                <p>A live updating chat forum. Users names are fecthed from the server. All users have the ability to
+                    reply to any comment, but only the user who wrote a comment has the fields to update or delete the
+                    comment. Admins are able to write the inital forum topic and have access to delete anyones comments.
+
+                </p>
+                <p class="design-tools">Design Tools</p>
+                <div class="container px-0 mx-0">
+                    <img class="img-fluid" src="./images/react_logo.png" style="width:40px;" alt="react">
+                    <img class="img-fluid mx-3" src="./images/django_logo.png" style="width:40px;" alt="django">
+                </div>
+            </div>
+            <div class="col order-1">
+                <img class="project-image img-fluid" src="./images/chat_forum.png" alt="chat forum">
+            </div>
+        </div>
+
+        <!-- reserach app example -->
+        <div class="example-projects px-4 row align-items-center bg-white">
+            <div class="col">
+                <img class="project-image img-fluid" src="./images/app_example.png" alt="app example">
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6 mt-5">
+                <h2>Research App</h2>
+                <p>This app pulls heath data from Apple Health, Fitbit, and Google Health. Researchers using the app are
+                    able to deliver specific interventions, updating dynamically, based on the level of activity
+                    recorded.
+                </p>
+                <p class="design-tools">Design Tools</p>
+                <div class="container px-0 mx-0">
+                    <img class="img-fluid" src="./images/flutter_logo.png" style="height:40px;" alt="flutter">
+                    <img class="img-fluid mx-3" src="./images/django_logo.png" style="width:40px;" alt="django">
+                </div>
+            </div>
+        </div>
+
+        <!-- admin portal example -->
+        <div class="example-projects px-4 row align-items-center">
+            <div class="col-md-4 col-lg-5 col-xl-6 order-2 order-md-1 mt-5">
+                <h2>Interactive Admin Portal</h2>
+                <p>Health researchers are able to use this portal to design and build their research studies. In this
+                    portal the can create various intervention types.
+                    All data is fetched from the server and can be exported to a csv for easy analysis.
+                </p>
+                <p class="design-tools">Design Tools</p>
+                <div class="container px-0 mx-0">
+                    <img class="img-fluid" src="./images/react_logo.png" style="width:40px;" alt="react">
+                    <img class="img-fluid mx-3" src="./images/django_logo.png" style="width:40px;" alt="django">
+                </div>
+            </div>
+            <div class="col order-1 order-md-2">
+                <img class="project-image img-fluid" src="./images/admin_portal.png" alt="admin portal">
+            </div>
+        </div>
+
+        <!-- mockups for next project -->
+        <div class="example-projects px-4 row bg-white align-items-center">
+            <div class="col">
+                <img class="project-image img-fluid" src="./images/adobexd_example.png" alt="adobeXd example">
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6 mt-5">
+                <h2>AdobeXd mockups</h2>
+                <p>Mockups are a crucial part of the development process. They allow for UI/UX to be determined before
+                    starting to code and create a visual pathway for how components of a program inbteract.
+                    My next big project is currently in the mockup phase.
+                </p>
+                <p class="design-tools">Design Tools</p>
+                <div class="container px-0 mx-0">
+                    <img class="img-fluid" src="./images/adobe_xd_logo.svg" style="width:40px ;" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <div id="footer">
+            <div class="d-flex justify-content-center">
+                <h3 class="text-light mt-4 pt-2">
+                    Want to Connect?
+                </h3>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+                <a href='https://github.com/smithnic1/' target="_blank" class="footer-btns">
+                    <span> <img src="./images/github.svg" alt="git hub logo" class="footer-btns-images mx-2"></span>
+                </a>
+                <a href='https://www.facebook.com/nick.smith.1865904' target="_blank" class="footer-btns">
+                    <span><img src="./images/facebook.svg" alt="facebook logo" class="footer-btns-images mx-2"></span>
+                </a>
+                <a href='https://www.linkedin.com/in/nick-smith-47123b191/' target="_blank" class="footer-btns">
+                    <span><img src="./images/linkedin.svg" alt="linkedin logo" class="footer-btns-images mx-2"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
